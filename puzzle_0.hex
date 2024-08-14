@@ -1,0 +1,59 @@
+Consider a fixed outer circle C o {\displaystyle C_{o}} of radius R {\displaystyle R} centered at the origin. A smaller inner circle C i {\displaystyle C_{i}} of radius r < R {\displaystyle r<R} is rolling inside C o {\displaystyle C_{o}} and is continuously tangent to it. C i {\displaystyle C_{i}} will be assumed never to slip on C o {\displaystyle C_{o}} (in a real Spirograph, teeth on both circles prevent such slippage). Now assume that a point A {\displaystyle A} lying somewhere inside C i {\displaystyle C_{i}} is located a distance ρ < r {\displaystyle \rho <r} from C i {\displaystyle C_{i}}'s center. This point A {\displaystyle A} corresponds to the pen-hole in the inner disk of a real Spirograph. Without loss of generality it can be assumed that at the initial moment the point A {\displaystyle A} was on the X {\displaystyle X} axis. In order to find the trajectory created by a Spirograph, follow point A {\displaystyle A} as the inner circle is set in motion.
+
+Now mark two points T {\displaystyle T} on C o {\displaystyle C_{o}} and B {\displaystyle B} on C i {\displaystyle C_{i}}. The point T {\displaystyle T} always indicates the location where the two circles are tangent. Point B {\displaystyle B}, however, will travel on C i {\displaystyle C_{i}}, and its initial location coincides with T {\displaystyle T}. After setting C i {\displaystyle C_{i}} in motion counterclockwise around C o {\displaystyle C_{o}}, C i {\displaystyle C_{i}} has a clockwise rotation with respect to its center. The distance that point B {\displaystyle B} traverses on C i {\displaystyle C_{i}} is the same as that traversed by the tangent point T {\displaystyle T} on C o {\displaystyle C_{o}}, due to the absence of slipping.
+
+Now define the new (relative) system of coordinates ( X ′ , Y ′ ) {\displaystyle (X',Y')} with its origin at the center of C i {\displaystyle C_{i}} and its axes parallel to X {\displaystyle X} and Y {\displaystyle Y}. Let the parameter t {\displaystyle t} be the angle by which the tangent point T {\displaystyle T} rotates on C o {\displaystyle C_{o}}, and t ′ {\displaystyle t'} be the angle by which C i {\displaystyle C_{i}} rotates (i.e. by which B {\displaystyle B} travels) in the relative system of coordinates. Because there is no slipping, the distances traveled by B {\displaystyle B} and T {\displaystyle T} along their respective circles must be the same, therefore
+
+    t R = ( t − t ′ ) r , {\displaystyle tR=(t-t')r,}
+
+or equivalently,
+
+    t ′ = − R − r r t . {\displaystyle t'=-{\frac {R-r}{r}}t.}
+
+It is common to assume that a counterclockwise motion corresponds to a positive change of angle and a clockwise one to a negative change of angle. A minus sign in the above formula ( t ′ < 0 {\displaystyle t'<0}) accommodates this convention.
+
+Let ( x c , y c ) {\displaystyle (x_{c},y_{c})} be the coordinates of the center of C i {\displaystyle C_{i}} in the absolute system of coordinates. Then R − r {\displaystyle R-r} represents the radius of the trajectory of the center of C i {\displaystyle C_{i}}, which (again in the absolute system) undergoes circular motion thus:
+
+    x c = ( R − r ) cos ⁡ t , y c = ( R − r ) sin ⁡ t . {\displaystyle {\begin{aligned}x_{c}&=(R-r)\cos t,\\y_{c}&=(R-r)\sin t.\end{aligned}}}
+
+As defined above, t ′ {\displaystyle t'} is the angle of rotation in the new relative system. Because point A {\displaystyle A} obeys the usual law of circular motion, its coordinates in the new relative coordinate system ( x ′ , y ′ ) {\displaystyle (x',y')} are
+
+    x ′ = ρ cos ⁡ t ′ , y ′ = ρ sin ⁡ t ′ . {\displaystyle {\begin{aligned}x'&=\rho \cos t',\\y'&=\rho \sin t'.\end{aligned}}}
+
+In order to obtain the trajectory of A {\displaystyle A} in the absolute (old) system of coordinates, add these two motions:
+
+    x = x c + x ′ = ( R − r ) cos ⁡ t + ρ cos ⁡ t ′ , y = y c + y ′ = ( R − r ) sin ⁡ t + ρ sin ⁡ t ′ , {\displaystyle {\begin{aligned}x&=x_{c}+x'=(R-r)\cos t+\rho \cos t',\\y&=y_{c}+y'=(R-r)\sin t+\rho \sin t',\\\end{aligned}}}
+
+where ρ {\displaystyle \rho } is defined above.
+
+Now, use the relation between t {\displaystyle t} and t ′ {\displaystyle t'} as derived above to obtain equations describing the trajectory of point A {\displaystyle A} in terms of a single parameter t {\displaystyle t}:
+
+    x = x c + x ′ = ( R − r ) cos ⁡ t + ρ cos ⁡ R − r r t , y = y c + y ′ = ( R − r ) sin ⁡ t − ρ sin ⁡ R − r r t {\displaystyle {\begin{aligned}x&=x_{c}+x'=(R-r)\cos t+\rho \cos {\frac {R-r}{r}}t,\\y&=y_{c}+y'=(R-r)\sin t-\rho \sin {\frac {R-r}{r}}t\\\end{aligned}}}
+
+(using the fact that function sin {\displaystyle \sin } is odd).
+
+It is convenient to represent the equation above in terms of the radius R {\displaystyle R} of C o {\displaystyle C_{o}} and dimensionless parameters describing the structure of the Spirograph. Namely, let
+
+    l = ρ r {\displaystyle l={\frac {\rho }{r}}}
+
+and
+
+    k = r R . {\displaystyle k={\frac {r}{R}}.}
+
+The parameter 0 ≤ l ≤ 1 {\displaystyle 0\leq l\leq 1} represents how far the point A {\displaystyle A} is located from the center of C i {\displaystyle C_{i}}. At the same time, 0 ≤ k ≤ 1 {\displaystyle 0\leq k\leq 1} represents how big the inner circle C i {\displaystyle C_{i}} is with respect to the outer one C o {\displaystyle C_{o}}.
+
+It is now observed that
+
+    ρ R = l k , {\displaystyle {\frac {\rho }{R}}=lk,}
+
+and therefore the trajectory equations take the form
+
+    x ( t ) = R [ ( 1 − k ) cos ⁡ t + l k cos ⁡ 1 − k k t ] , y ( t ) = R [ ( 1 − k ) sin ⁡ t − l k sin ⁡ 1 − k k t ] . {\displaystyle {\begin{aligned}x(t)&=R\left[(1-k)\cos t+lk\cos {\frac {1-k}{k}}t\right],\\y(t)&=R\left[(1-k)\sin t-lk\sin {\frac {1-k}{k}}t\right].\\\end{aligned}}}
+
+Parameter R {\displaystyle R} is a scaling parameter and does not affect the structure of the Spirograph. Different values of R {\displaystyle R} would yield similar Spirograph drawings.
+
+The two extreme cases k = 0 {\displaystyle k=0} and k = 1 {\displaystyle k=1} result in degenerate trajectories of the Spirograph. In the first extreme case, when k = 0 {\displaystyle k=0}, we have a simple circle of radius R {\displaystyle R}, corresponding to the case where C i {\displaystyle C_{i}} has been shrunk into a point. (Division by k = 0 {\displaystyle k=0} in the formula is not a problem, since both sin {\displaystyle \sin } and cos {\displaystyle \cos } are bounded functions.)
+
+The other extreme case k = 1 {\displaystyle k=1} corresponds to the inner circle C i {\displaystyle C_{i}}'s radius r {\displaystyle r} matching the radius R {\displaystyle R} of the outer circle C o {\displaystyle C_{o}}, i.e. r = R {\displaystyle r=R}. In this case the trajectory is a single point. Intuitively, C i {\displaystyle C_{i}} is too large to roll inside the same-sized C o {\displaystyle C_{o}} without slipping.
+
+If l = 1 {\displaystyle l=1}, then the point A {\displaystyle A} is on the circumference of C i {\displaystyle C_{i}}. In this case the trajectories are called hypocycloids and the equations above reduce to those for a hypocycloid. 
