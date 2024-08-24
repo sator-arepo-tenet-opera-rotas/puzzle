@@ -1,4 +1,4 @@
-In process automation, only four rules are required for a fuzzy logic controller: 
+
 Rule 1: If the error is negative and the change in error is negative, the change in output is positive.
 Rule 2: If the error is negative and the change in error is positive, the change in output is zero.
 Rule 3: If the error is positive and the change in error is negative, the change in output is zero.
